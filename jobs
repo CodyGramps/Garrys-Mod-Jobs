@@ -1,0 +1,167 @@
+TEAM_91stNeyo = DarkRP.createJob("Commander Neyo ", {
+    color = Color(235, 4, 58, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[CC-8826, nicknamed "Neyo," was an ARC clone trooper who served in the Grand Army of the Republic during the Clone Wars. Cloned from the template of the Human male bounty hunter Jango Fett on the water world of Kamino, Neyo was a graduate of ARC trooper Alpha-17's elite clone commander training program. Given the rank of clone marshal commander, Neyo became the commanding officer of the 91st Reconnaissance Corps.]],
+    weapons = {},
+    command = "Neyo",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "91st Recon Corps ",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+TEAM_91stXO = DarkRP.createJob("91st Executive Officer", {
+    color = Color(235, 4, 58, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[CC-8826, nicknamed "Neyo," was an ARC clone trooper who served in the Grand Army of the Republic during the Clone Wars. Cloned from the template of the Human male bounty hunter Jango Fett on the water world of Kamino, Neyo was a graduate of ARC trooper Alpha-17's elite clone commander training program. Given the rank of clone marshal commander, Neyo became the commanding officer of the 91st Reconnaissance Corps.]],
+    weapons = {},
+    command = "91stBXO",
+    max = 1,
+    salary = 350,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "91st Recon Corps ",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(375)
+        ply:SetHealth(375)
+        ply:SetArmor(100)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+
+
+
+
+
+
+TEAM_212THCODY = DarkRP.createJob("Commander Cody ", {
+    color = Color(255, 103, 0, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[CC-2224, nicknamed "Cody," was a clone marshal commander assigned to High Jedi General Obi-Wan Kenobi of the Grand Army of the Republic throughout the Clone Wars. The leader of the 7th Sky Corps, though he typically took personal command of the 212th Attack Battalion, Cody was a loyal and competent soldier who always followed his orders. He was a no-nonsense commander who was very skilled in tactics. He had a 91% similarity to the original clone template of Jango Fett.]],
+    weapons = {},
+    command = "212thbco",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "212th Attack Battalion ",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+
+
+
+TEAM_RANCORCOLT = DarkRP.createJob("Commander Colt", {
+    color = Color(209, 0, 0, 255),
+    model = {"models/player/barney.mdl"},
+    description = [["Colt" was the nickname of an Advanced Recon Commando who served in the Grand Army of the Republic during the Clone Wars. Commander of the Rancor Battalion and an advocate of unity on the battlefield, Colt was assigned to Tipoca City on Kamino to select potential ARC trooper candidates from squads of clone cadets nearing the end of their training. ]],
+    weapons = {},
+    command = "BCOR",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Rancor Battalion ",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+
+TEAM_SURGE = DarkRP.createJob("74th Commander", {
+    color = Color(209, 0, 0, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[The Commander of the 74th Medical Regiment ]],
+    weapons = {},
+    command = "74thSurge",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "74th Medical Regiment",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+
+TEAM_Wolffe = DarkRP.createJob("Commander Wolffe", {
+    color = Color(209, 0, 0, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[CC-3636, nicknamed "Wolffe," was a veteran clone trooper commander in the Grand Army of the Republic who served with Jedi General Plo Koon during the Clone Wars. The leader of the 104th Battalion's famed Wolfpack squad, Commander Wolffe proved to be tireless in his efforts against the Confederacy of Independent Systems, displaying an affinity for strategy.]],
+    weapons = {},
+    command = "104thWolffe",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "104th Wolfpack Battalion",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
+
+
+
+
+
+
+
