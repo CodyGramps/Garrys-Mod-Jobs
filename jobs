@@ -50,10 +50,6 @@ TEAM_91stXO = DarkRP.createJob("91st Executive Officer", {
 
 
 
-
-
-
-
 TEAM_212THCODY = DarkRP.createJob("Commander Cody ", {
     color = Color(255, 103, 0, 255),
     model = {"models/player/barney.mdl"},
@@ -79,6 +75,29 @@ TEAM_212THCODY = DarkRP.createJob("Commander Cody ", {
 })
 
 
+TEAM_CTCOMMANDER = DarkRP.createJob("CT Commander ", {
+    color = Color(255, 255, 255, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[They Lead the backbone of the Grand Army of the Republic ]],
+    weapons = {},
+    command = "CTCommanderr",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "Clone Trooper",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
 
 
 
@@ -157,6 +176,34 @@ TEAM_Wolffe = DarkRP.createJob("Commander Wolffe", {
     end,
     CustomCheckFailMsg = "You are not Whitelisted to this Job",
 })
+
+
+
+
+TEAM_REX = DarkRP.createJob("Captain Rex", {
+    color = Color(0, 10, 255, 255),
+    model = {"models/player/barney.mdl"},
+    description = [[CT-7567 was a veteran clone trooper captain who led the Grand Army of the Republic's acclaimed 501st Legion during the Clone Wars. Bred and trained on the planet Kamino, CT-7567 entered into Republic service at the Battle of Geonosis in 22 BBY. He gained respect from Jedi officers and clone troopers alike as an honorable commander, becoming known as one of the best and toughest clone troopers in the Grand Army. He was even selected for special command training under Advanced Recon Commando Alpha-17, following which he took the nickname "Rex."]],
+    weapons = {},
+    command = "501stBCO",
+    max = 1,
+    salary = 500,
+    admin = 0,
+    vote = false,
+    hasLicense = false,
+    candemote = false,
+    category = "501st Legion ",
+    PlayerSpawn = function(ply)
+        ply:SetMaxHealth(500)
+        ply:SetHealth(500)
+        ply:SetArmor(250)
+    end,
+    customCheck = function(ply) return CLIENT or
+        table.HasValue({"superadmin", "admin", "seniormoderator", "moderator"}, ply:GetNWString("usergroup"))
+    end,
+    CustomCheckFailMsg = "You are not Whitelisted to this Job",
+})
+
 
 
 
