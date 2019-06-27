@@ -5,7 +5,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(255, 0, 0, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 1
+    sortOrder = 7
 }
 
 
@@ -16,7 +16,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(255, 0, 61, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 2
+    sortOrder = 11
 }
 
 
@@ -27,7 +27,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(255, 245, 0, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 3
+    sortOrder = 5
 }
 
 
@@ -49,7 +49,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(252, 147, 82, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 5
+    sortOrder = 10
 }
 
 
@@ -62,7 +62,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(99, 50, 17, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 6
+    sortOrder = 9
 }
 
 
@@ -72,7 +72,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(99, 50, 17, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 7
+    sortOrder = 8
 }
 
 
@@ -83,7 +83,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(212, 81, 0, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 8
+    sortOrder = 3
 }
 
 
@@ -95,7 +95,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(5, 115, 3, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 9
+    sortOrder = 6
 }
 
 
@@ -106,7 +106,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(255, 255, 255, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 10
+    sortOrder = 1
 }
 
 
@@ -116,7 +116,7 @@ DarkRP.createCategory{
     startExpanded = false,
     color = Color(18, 73, 214, 255),
     canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 11
+    sortOrder = 2
 }
 
 
@@ -130,16 +130,6 @@ DarkRP.createCategory{
 }
 
 
-
-
-DarkRP.createCategory{
-    name = "Delta Squad",
-    categorises = "jobs",
-    startExpanded = false,
-    color = Color(255, 75, 0, 255),
-    canSee = function(ply) return table.HasValue({"superadmin", "admin", "moderator", "seniormoderator"}, ply:GetNWString("usergroup")) end,
-    sortOrder = 13
-}
 
 
 
