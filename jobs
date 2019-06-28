@@ -1,4 +1,4 @@
-TEAM_91stNeyo = DarkRP.createJob("Commander Neyo ", {
+TEAM_91st = DarkRP.createJob("Commander Neyo ", {
     color = Color(235, 4, 58, 255),
     model = {"models/player/barney.mdl"},
     description = [[CC-8826, nicknamed "Neyo," was an ARC clone trooper who served in the Grand Army of the Republic during the Clone Wars. Cloned from the template of the Human male bounty hunter Jango Fett on the water world of Kamino, Neyo was a graduate of ARC trooper Alpha-17's elite clone commander training program. Given the rank of clone marshal commander, Neyo became the commanding officer of the 91st Reconnaissance Corps.]],
@@ -23,7 +23,7 @@ TEAM_91stNeyo = DarkRP.createJob("Commander Neyo ", {
 })
 
 
-TEAM_91stXO = DarkRP.createJob("91st Executive Officer", {
+TEAM_91st = DarkRP.createJob("91st Executive Officer", {
     color = Color(235, 4, 58, 255),
     model = {"models/player/barney.mdl"},
     description = [[CC-8826, nicknamed "Neyo," was an ARC clone trooper who served in the Grand Army of the Republic during the Clone Wars. Cloned from the template of the Human male bounty hunter Jango Fett on the water world of Kamino, Neyo was a graduate of ARC trooper Alpha-17's elite clone commander training program. Given the rank of clone marshal commander, Neyo became the commanding officer of the 91st Reconnaissance Corps.]],
@@ -50,7 +50,7 @@ TEAM_91stXO = DarkRP.createJob("91st Executive Officer", {
 
 
 
-TEAM_212THCODY = DarkRP.createJob("Commander Cody ", {
+TEAM_212TH = DarkRP.createJob("Commander Cody ", {
     color = Color(255, 103, 0, 255),
     model = {"models/player/barney.mdl"},
     description = [[CC-2224, nicknamed "Cody," was a clone marshal commander assigned to High Jedi General Obi-Wan Kenobi of the Grand Army of the Republic throughout the Clone Wars. The leader of the 7th Sky Corps, though he typically took personal command of the 212th Attack Battalion, Cody was a loyal and competent soldier who always followed his orders. He was a no-nonsense commander who was very skilled in tactics. He had a 91% similarity to the original clone template of Jango Fett.]],
@@ -75,7 +75,7 @@ TEAM_212THCODY = DarkRP.createJob("Commander Cody ", {
 })
 
 
-TEAM_CTCOMMANDER = DarkRP.createJob("CT Commander ", {
+TEAM_CT = DarkRP.createJob("CT Commander ", {
     color = Color(255, 255, 255, 255),
     model = {"models/player/barney.mdl"},
     description = [[They Lead the backbone of the Grand Army of the Republic ]],
@@ -101,7 +101,7 @@ TEAM_CTCOMMANDER = DarkRP.createJob("CT Commander ", {
 
 
 
-TEAM_RANCORCOLT = DarkRP.createJob("Commander Colt", {
+TEAM_RANCOR = DarkRP.createJob("Commander Colt", {
     color = Color(209, 0, 0, 255),
     model = {"models/player/barney.mdl"},
     description = [["Colt" was the nickname of an Advanced Recon Commando who served in the Grand Army of the Republic during the Clone Wars. Commander of the Rancor Battalion and an advocate of unity on the battlefield, Colt was assigned to Tipoca City on Kamino to select potential ARC trooper candidates from squads of clone cadets nearing the end of their training. ]],
@@ -127,7 +127,7 @@ TEAM_RANCORCOLT = DarkRP.createJob("Commander Colt", {
 
 
 
-TEAM_SURGE = DarkRP.createJob("74th Commander", {
+TEAM_74TH = DarkRP.createJob("74th Commander", {
     color = Color(209, 0, 0, 255),
     model = {"models/player/barney.mdl"},
     description = [[The Commander of the 74th Medical Regiment ]],
@@ -153,7 +153,7 @@ TEAM_SURGE = DarkRP.createJob("74th Commander", {
 
 
 
-TEAM_Wolffe = DarkRP.createJob("Commander Wolffe", {
+TEAM_104TH = DarkRP.createJob("Commander Wolffe", {
     color = Color(209, 0, 0, 255),
     model = {"models/player/barney.mdl"},
     description = [[CC-3636, nicknamed "Wolffe," was a veteran clone trooper commander in the Grand Army of the Republic who served with Jedi General Plo Koon during the Clone Wars. The leader of the 104th Battalion's famed Wolfpack squad, Commander Wolffe proved to be tireless in his efforts against the Confederacy of Independent Systems, displaying an affinity for strategy.]],
@@ -180,7 +180,7 @@ TEAM_Wolffe = DarkRP.createJob("Commander Wolffe", {
 
 
 
-TEAM_REX = DarkRP.createJob("Captain Rex", {
+TEAM_501ST = DarkRP.createJob("Captain Rex", {
     color = Color(0, 10, 255, 255),
     model = {"models/player/barney.mdl"},
     description = [[CT-7567 was a veteran clone trooper captain who led the Grand Army of the Republic's acclaimed 501st Legion during the Clone Wars. Bred and trained on the planet Kamino, CT-7567 entered into Republic service at the Battle of Geonosis in 22 BBY. He gained respect from Jedi officers and clone troopers alike as an honorable commander, becoming known as one of the best and toughest clone troopers in the Grand Army. He was even selected for special command training under Advanced Recon Commando Alpha-17, following which he took the nickname "Rex."]],
